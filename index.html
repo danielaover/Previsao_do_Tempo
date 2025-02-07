@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Weather forecast</title>
+</head>
+<body>
+    <main>
+        <header>
+            <input type="text" id="buscar-cidade" class="campo-busca" placeholder="Digite o nome da cidade...">
+            <button onclick="clicaBotao()" id="btn-buscar" class="botao-busca" aria-label="Buscar">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <section class="info-tempo">
+            <h2>Tempo em <span id="nome-cidade">...</span></h2>
+            
+            <div class="detalhes-tempo">
+                <h3 id="temperatura">0°</h3>
+                <div class="status-tempo">
+                    <img src="#" id="icone-tempo" />
+                    <p id="descricao">Céu limpo</p>
+                </div>
+                <p>Umidade: <span id="umidade">0%</span></p>
+                <p>País: <span id="pais"></span> 
+                    <img id="bandeira" src="" alt="Bandeira do país" width="40">
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://github.com/danielaover" target="_blank">danielaover</a></p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

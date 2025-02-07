@@ -1,8 +1,5 @@
 # Previsão do Tempo
 
-[Visualize o projeto aqui](https://github.io/danielaover/Previsao_do_Tempo/)
-
-
 ## Projeto 💻
 O intuito desse projeto é que o usuário possa ter uma experiência em saber o clima de cada país, cidade ou estado, buscando assim pela API OpenWeather.
 
